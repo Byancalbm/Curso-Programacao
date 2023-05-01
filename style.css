@@ -1,5 +1,6 @@
 
 body {
+    margin: 0;
     background-color: white;
     height: 100vh;
     display: flex;
@@ -19,6 +20,37 @@ body {
 
 /**/
 
+.menu {
+margin: 100px;
+align-items: center;
+align-content: center;
+text-align: center;
+border: solid;
+}
+.menu ul{
+    margin: 0;
+    background-color: rgb(87, 87, 245);
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    text-align: center;
+}
+
+.menu ul li a{
+    padding: 10px 15px;
+    display: inline-block;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/**/
+
 .perfil {
     width: 100%;
     display: flex;
@@ -34,8 +66,8 @@ body {
 .perfil_nome {
     font-family: Arial, Helvetica, sans-serif;
     font: 100;
-    font-size: 60px;
-    color: rgba(255, 217, 0, 0.993);
+    font-size: 35px;
+    color: rgba(76, 0, 255, 0.993);
 }
 
 /**/
@@ -73,8 +105,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    }
 .footer_texto {
     display: flex;
     color: grey;
+    flex-direction: column;
+    align-items: center; 
+    margin: 100px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: solid;   
 }

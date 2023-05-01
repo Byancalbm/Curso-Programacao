@@ -19,10 +19,23 @@
     </head>
 
     <body>
-        <main class="main">
+
+    <head>             
+            <div class="menu">
+                <ul>
+                    <li><a href="#Biografia de Ada Lovelace">Biografia</a></li>
+                    <li><a href="#Infância e Juventude">Infancia e Juventude</a></li>
+                    <li><a href="#Inovação e Matemática">Inovação e Matemática</a></li>
+                    <li><a href="#Vida Pessoal e Morte">Vida Pessoal e Morte</a></li>
+                    <li><a href="#biografia_video">Saiba Mais</a></li>
+                </ul>
+            </div>
+       </head>
+
+       <main class="main">  
             <div class="perfil">
                 <img class="perfil_foto" alt="Ada Lovelace" src="assets/imagens/AdaLovelace.png">
-                <h1 class="perfil_nome">Ada Lovelace</h1>
+                <h1 class="perfil_nome" id="Biografia de Ada Lovelace">Biografia de Ada Lovelace </h1> 
                 <p class="perfil_descricao">
                     <hr> Augusta Ada Byron King  - a Condessa de Lovelace - foi uma matemática e escritora que viveu na Inglaterra no século XIX.
                     <hr> Filha do famoso poeta Lord Byron, Ada foi responsável por uma revolução no campo das ciências exatas, sendo reconhecida como a primeira programadora, ou seja, a primeira a inventar um algoritmo processado por uma máquina.
@@ -31,7 +44,7 @@
 
             <section class="section">               
                     <article class="biografia">
-                    <h3 class="biografia_titulo">Infância e Juventude</h3>
+                    <h3 class="biografia_titulo" id="Infância e Juventude">Infância e Juventude</h3>
                     <p class="biografia_descricao">
                         <hr> Ada Lovelace nasceu no dia 10 de dezembro de 1815, em Londres, na Inglaterra. Conta-se que seu pai, o poeta romântico Lord Byron, não ficou satisfeito com o fato de ter uma filha menina.
                         <hr> Sua mãe, Anne Isabella Byron, era uma nobre cientista e criou a filha sem a presença de Byron, que pediu a separação quando a garota tinha 2 meses de idade e logo se mudou de país.
@@ -42,7 +55,7 @@
                     </article>
 
                     <article class="biografia">
-                    <h3 class="biografia_titulo">Inovação e Matemática</h3>
+                    <h3 class="biografia_titulo" id="Inovação e Matemática">Inovação e Matemática</h3>
                     <p class="biografia_descricao">
                        <hr> Ada Lovelace conhece Charles Babbage por meio de Mary Sommerville. Ele era um matemático que desenvolvia estudos inovadores envolvendo uma máquina analítica que viria a ser precursora dos computadores.
                        <hr> Ada se interessa pelos experimentos de Babbage e se envolve nos estudos, desenvolvendo códigos contendo números e símbolos que seriam processados pela máquina.
@@ -51,19 +64,27 @@
                     </article>
 
                     <article class="biografia">
-                    <h3 class="biografia_titulo">Vida Pessoal e Morte</h3>
-                    <p class="biografia__descricao">
+                    <h3 class="biografia_titulo" id="Vida Pessoal e Morte">Vida Pessoal e Morte</h3>
+                    <p class="biografia_descricao">
                         <hr> Aos 20 anos Ada se casa em 1835 com William Baron King, com quem teve três filhos: Byron, Anabella e Ralph.
                         <hr> Em 1856 Ada Lovelace morre em decorrência de um câncer de útero, partindo aos 36 anos, mesma idade em que seu pai faleceu.</p>
-                    </article>                  
+                    </article>       
+                 
+                    <article class="biografia">
+                        <p class="biografia_video" id="biografia_video">
+                            <div class="Biografia_video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/-ysbbAHXVVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                    </article>
             </section>
         </main>
 
         <footer>
 
-            <span href="#" class="footer_texto">Feito por Byanca Godoy Lisboa. </span>
+            <span class="footer_texto">Feito por Byanca Godoy Lisboa. </span>
 
         </footer>
 
-      </body>
+        <script src="script.js"></script>     
+     </body>
 </html>
